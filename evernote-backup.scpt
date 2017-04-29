@@ -16,4 +16,4 @@ end timeout
 
 -- Compress the file
 set p to POSIX path of f
-do shell script "/usr/bin/gzip " & quoted form of p
+do shell script "/usr/local/bin/pbzip2 " & quoted form of p
